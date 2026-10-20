@@ -1,0 +1,18 @@
+P -> problemas fáceis de resolver e de fácil verificação
+NP -> Problemas que podem ser facilmente verificados porém não são fáceis de resolver
+
+Se P=NP então existem problemas complexos que podem ser resolvidos na mesma velocidade de problemas simples desde que sua resposta possa ser verificada
+Se P!=NP então existem problemas que são intrinsicamente difíceis e que não seja possível de resolvê-lo na mesma velocidade de um problema fácil mesmo sendo verificável
+
+Exemplo de problema P: Encontrar um número primo numa lista de 100 elementos
+Exemplo de problema NP: Problema do caixeiro-viajante -> Encontrar a rota mais curta passando por várias cidades sem repeti-las
+
+Problema introduzido em 1971 por Stephen Cook e independentemente por Leonid Levin em 1973
+De todo modo, já havias problemas correlacionados antes disso, por exemplo em 1955 o matemático John Nash escreveu uma carta para a Agência de Segurança Nacional, especulando que o tempo necessário para decifrar um código suficientemente complexo aumentaria exponencialmente com o comprimento da chave. Se provado, isso implicaria o que hoje se chama P != NP
+
+Classes P e NP
+Nesta teoria, a classe P consiste em todos os problemas de decisão (definidos abaixo) solucionáveis em uma máquina sequencial determinística em um polinômio de duração no tamanho da entrada; a classe NP consiste em todos os problemas de decisão cujas soluções positivas são verificáveis em tempo polinomial dado o conhecimento correto, ou equivalentemente, cuja solução pode ser encontrada em tempo polinomial em uma máquina não determinística. 
+
+Tópicos do relatório
+
+Classes P e NP

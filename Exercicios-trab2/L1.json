@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "app": "turinglab",
+  "moduleKey": "mt-trans",
+  "levelId": "MT_L1",
+  "savedAt": "2026-11-05T01:50:56.044Z",
+  "payload": {
+    "nodes": [
+      {
+        "uid": "_mt1_gp5c",
+        "id": "q0",
+        "label": "q0",
+        "x": 351.00003675981003,
+        "y": 400.73864590037954,
+        "isInitial": true,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt5_s0bw",
+        "id": "q1",
+        "label": "q1",
+        "x": 868.1818181818182,
+        "y": 403.0682043595748,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt7_vqzx",
+        "id": "q2",
+        "label": "q2",
+        "x": 610.0000554865059,
+        "y": 174.88629601218494,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt8_xlkj",
+        "id": "q3",
+        "label": "q3",
+        "x": 610.9091325239701,
+        "y": 558.5227359424938,
+        "isInitial": false,
+        "isFinal": true
+      }
+    ],
+    "transitions": [
+      {
+        "from": "q0",
+        "to": "q1",
+        "read": "a",
+        "write": "A",
+        "move": "R"
+      },
+      {
+        "from": "q0",
+        "to": "q0",
+        "read": "A",
+        "write": "A",
+        "move": "L"
+      },
+      {
+        "from": "q0",
+        "to": "q0",
+        "read": "B",
+        "write": "B",
+        "move": "L"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "a",
+        "write": "a",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q2",
+        "read": "b",
+        "write": "B",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q2",
+        "read": "a",
+        "write": "a",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q2",
+        "read": "B",
+        "write": "B",
+        "move": "L"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "B",
+        "write": "B",
+        "move": "R"
+      },
+      {
+        "from": "q2",
+        "to": "q0",
+        "read": "A",
+        "write": "A",
+        "move": "R"
+      },
+      {
+        "from": "q0",
+        "to": "q3",
+        "read": "",
+        "write": "",
+        "move": "R"
+      }
+    ],
+    "linguagemTests": [
+      {
+        "word": "aabb",
+        "status": "ACCEPTED",
+        "output": "AABB"
+      },
+      {
+        "word": "",
+        "status": "ACCEPTED",
+        "output": ""
+      },
+      {
+        "word": "aaabb",
+        "status": "REJECTED",
+        "output": ""
+      }
+    ],
+    "desenhoTests": [],
+    "activeTab": "linguagem",
+    "victory": false,
+    "formal": {
+      "formalAnswers": {
+        "states": "{q0, q1, q2, q3}",
+        "sigma": "{a, b}",
+        "gamma": "{□, a, b, A, B}",
+        "initial": "q0",
+        "blank": "□",
+        "final": "q3",
+        "deltaCells": {
+          "q0|a": "",
+          "q0|A": "",
+          "q0|B": "",
+          "q0|□": "",
+          "q1|a": "",
+          "q1|b": "",
+          "q1|B": "",
+          "q2|a": "",
+          "q2|A": "",
+          "q2|B": "",
+          "q3|a": "",
+          "q3|A": "",
+          "q3|B": ""
+        }
+      },
+      "formalElementsValid": true
+    }
+  },
+  "levelLabel": "L01",
+  "stars": 2
+}

@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "app": "turinglab",
+  "moduleKey": "mt-trans",
+  "levelId": "MT_L2",
+  "savedAt": "2026-11-09T21:21:08.331Z",
+  "payload": {
+    "nodes": [
+      {
+        "uid": "_mt1_k2lx",
+        "id": "q0",
+        "label": "q0",
+        "x": 436.0000228881836,
+        "y": 313.37498664855957,
+        "isInitial": true,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt2_scga",
+        "id": "q1",
+        "label": "q1",
+        "x": 440.00003814697266,
+        "y": 543.3749866485596,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt4_3c2y",
+        "id": "q2",
+        "label": "q2",
+        "x": 675.9999847412109,
+        "y": 429.37500953674316,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt5_fhse",
+        "id": "q3",
+        "label": "q3",
+        "x": 907.0000457763672,
+        "y": 438.37498664855957,
+        "isInitial": false,
+        "isFinal": true
+      }
+    ],
+    "transitions": [
+      {
+        "from": "q0",
+        "to": "q1",
+        "read": "1",
+        "write": "0",
+        "move": "R"
+      },
+      {
+        "from": "q0",
+        "to": "q1",
+        "read": "0",
+        "write": "1",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q0",
+        "read": "1",
+        "write": "0",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q0",
+        "read": "0",
+        "write": "1",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q2",
+        "read": "",
+        "write": "",
+        "move": "L"
+      },
+      {
+        "from": "q0",
+        "to": "q2",
+        "read": "",
+        "write": "",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q2",
+        "read": "1",
+        "write": "1",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q2",
+        "read": "0",
+        "write": "0",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q3",
+        "read": "",
+        "write": "",
+        "move": "R"
+      }
+    ],
+    "linguagemTests": [],
+    "desenhoTests": [],
+    "activeTab": "linguagem",
+    "victory": true,
+    "formal": {
+      "formalAnswers": {
+        "states": "{q0, q1, q2, q3}",
+        "sigma": "{0, 1}",
+        "gamma": "{□, 1, 0}",
+        "initial": "q0",
+        "blank": "□",
+        "final": "q3",
+        "deltaCells": {
+          "q0|0": "q1, 1, R",
+          "q0|1": "q1, 0, R",
+          "q0|□": "q2, □, L",
+          "q1|0": "q0, 1, R",
+          "q1|1": "q0, 0, R",
+          "q1|□": "q2, □, L",
+          "q2|0": "q2, 0, L",
+          "q2|1": "q2, 1, L",
+          "q2|□": "q3, □, R"
+        }
+      },
+      "formalElementsValid": true
+    }
+  },
+  "levelLabel": "L02",
+  "stars": 3
+}

@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "app": "turinglab",
+  "moduleKey": "mt-trans",
+  "levelId": "MT_L7",
+  "savedAt": "2026-11-10T12:52:07.861Z",
+  "payload": {
+    "nodes": [
+      {
+        "uid": "_mt1_ygws",
+        "id": "q0",
+        "label": "q0",
+        "x": 629.3333336385091,
+        "y": 553.0416448179898,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt2_bvd8",
+        "id": "q1",
+        "label": "q1",
+        "x": 938.6666153971394,
+        "y": 563.7083386452989,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt5_sm67",
+        "id": "q2",
+        "label": "q2",
+        "x": 1211.9999533081088,
+        "y": 366.3749796772019,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt6_1ir1",
+        "id": "q3",
+        "label": "q3",
+        "x": 1246.6666224161818,
+        "y": 737.0416841856625,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt8_cptd",
+        "id": "q4",
+        "label": "q4",
+        "x": 929.3334251912365,
+        "y": 853.0416886870049,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt9_f27w",
+        "id": "q5",
+        "label": "q5",
+        "x": 624.0000439453092,
+        "y": 847.7082845528957,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt10_9v2f",
+        "id": "q6",
+        "label": "q6",
+        "x": 378.66665812174546,
+        "y": 553.0416352812473,
+        "isInitial": true,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt11_d0fh",
+        "id": "q7",
+        "label": "q7",
+        "x": 368.0000024414061,
+        "y": 843.708298209511,
+        "isInitial": false,
+        "isFinal": true
+      }
+    ],
+    "transitions": [
+      {
+        "from": "q0",
+        "to": "q0",
+        "read": "a",
+        "write": "a",
+        "move": "R"
+      },
+      {
+        "from": "q0",
+        "to": "q0",
+        "read": "b",
+        "write": "b",
+        "move": "R"
+      },
+      {
+        "from": "q0",
+        "to": "q1",
+        "read": "",
+        "write": "",
+        "move": "L"
+      },
+      {
+        "from": "q1",
+        "to": "q2",
+        "read": "a",
+        "write": "A",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q3",
+        "read": "b",
+        "write": "B",
+        "move": "R"
+      },
+      {
+        "from": "q3",
+        "to": "q3",
+        "read": "A",
+        "write": "A",
+        "move": "R"
+      },
+      {
+        "from": "q3",
+        "to": "q3",
+        "read": "B",
+        "write": "B",
+        "move": "R"
+      },
+      {
+        "from": "q2",
+        "to": "q2",
+        "read": "A",
+        "write": "A",
+        "move": "R"
+      },
+      {
+        "from": "q2",
+        "to": "q2",
+        "read": "B",
+        "write": "B",
+        "move": "R"
+      },
+      {
+        "from": "q2",
+        "to": "q1",
+        "read": "",
+        "write": "A",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q1",
+        "read": "",
+        "write": "B",
+        "move": "L"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "A",
+        "write": "A",
+        "move": "L"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "B",
+        "write": "B",
+        "move": "L"
+      },
+      {
+        "from": "q1",
+        "to": "q4",
+        "read": "",
+        "write": "",
+        "move": "R"
+      },
+      {
+        "from": "q4",
+        "to": "q4",
+        "read": "A",
+        "write": "a",
+        "move": "R"
+      },
+      {
+        "from": "q4",
+        "to": "q4",
+        "read": "B",
+        "write": "b",
+        "move": "R"
+      },
+      {
+        "from": "q4",
+        "to": "q5",
+        "read": "",
+        "write": "",
+        "move": "L"
+      },
+      {
+        "from": "q5",
+        "to": "q5",
+        "read": "a",
+        "write": "a",
+        "move": "L"
+      },
+      {
+        "from": "q5",
+        "to": "q5",
+        "read": "b",
+        "write": "b",
+        "move": "L"
+      },
+      {
+        "from": "q6",
+        "to": "q0",
+        "read": "<",
+        "write": "",
+        "move": "R"
+      },
+      {
+        "from": "q5",
+        "to": "q7",
+        "read": "",
+        "write": "",
+        "move": "R"
+      }
+    ],
+    "linguagemTests": [
+      {
+        "word": "ab",
+        "status": "ACCEPTED",
+        "output": "abba"
+      }
+    ],
+    "desenhoTests": [],
+    "activeTab": "linguagem",
+    "victory": false,
+    "formal": {
+      "formalAnswers": {
+        "states": "{q0, q1, q2, q3, q4, q5, q6, q7}",
+        "sigma": "{a, b}",
+        "gamma": "{□, <, a, b, A, B}",
+        "initial": "q6",
+        "blank": "□",
+        "final": "q7",
+        "deltaCells": {}
+      },
+      "formalElementsValid": true
+    }
+  },
+  "levelLabel": "L07",
+  "stars": 2
+}

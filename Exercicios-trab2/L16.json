@@ -1,0 +1,345 @@
+{
+  "schemaVersion": 1,
+  "app": "turinglab",
+  "moduleKey": "mt-trans",
+  "levelId": "MT_L16",
+  "savedAt": "2026-11-10T21:45:31.974Z",
+  "payload": {
+    "nodes": [
+      {
+        "uid": "_mt2_3seu",
+        "id": "q1",
+        "label": "q1",
+        "x": 423.6418614442379,
+        "y": 297.20145871373126,
+        "isInitial": true,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt3_h0wj",
+        "id": "q2",
+        "label": "q2",
+        "x": 839.4874356386911,
+        "y": 187.92325964425953,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt5_w9kg",
+        "id": "q3",
+        "label": "q3",
+        "x": 832.7768444752223,
+        "y": 878.1570247933886,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt6_i57a",
+        "id": "q4",
+        "label": "q4",
+        "x": 1394.6666416422547,
+        "y": 763.708323386511,
+        "isInitial": false,
+        "isFinal": true
+      },
+      {
+        "uid": "_mt7_8a9s",
+        "id": "q5",
+        "label": "q5",
+        "x": 1069.834755356296,
+        "y": 765.8445576463722,
+        "isInitial": false,
+        "isFinal": false
+      }
+    ],
+    "transitions": [
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "0",
+        "write": "0",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "1",
+        "write": "1",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "2",
+        "write": "2",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "3",
+        "write": "3",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "4",
+        "write": "4",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "5",
+        "write": "5",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "6",
+        "write": "6",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "7",
+        "write": "7",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "8",
+        "write": "8",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "9",
+        "write": "9",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q2",
+        "read": "",
+        "write": "",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q2",
+        "read": "0",
+        "write": "0",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q2",
+        "read": "1",
+        "write": "2",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q2",
+        "read": "2",
+        "write": "4",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q2",
+        "read": "3",
+        "write": "6",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q2",
+        "read": "4",
+        "write": "8",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q3",
+        "read": "5",
+        "write": "0",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q3",
+        "read": "6",
+        "write": "2",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q3",
+        "read": "7",
+        "write": "4",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q3",
+        "read": "8",
+        "write": "6",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q3",
+        "read": "9",
+        "write": "8",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q4",
+        "read": "",
+        "write": "",
+        "move": "R"
+      },
+      {
+        "from": "q3",
+        "to": "q2",
+        "read": "0",
+        "write": "1",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q2",
+        "read": "1",
+        "write": "3",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q2",
+        "read": "2",
+        "write": "5",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q2",
+        "read": "3",
+        "write": "7",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q2",
+        "read": "4",
+        "write": "9",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q3",
+        "read": "5",
+        "write": "1",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q3",
+        "read": "6",
+        "write": "3",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q3",
+        "read": "7",
+        "write": "5",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q3",
+        "read": "8",
+        "write": "7",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q3",
+        "read": "9",
+        "write": "9",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q5",
+        "read": "",
+        "write": "1",
+        "move": "L"
+      },
+      {
+        "from": "q5",
+        "to": "q4",
+        "read": "",
+        "write": "",
+        "move": "R"
+      }
+    ],
+    "linguagemTests": [
+      {
+        "word": "20",
+        "status": "ACCEPTED",
+        "output": "40"
+      }
+    ],
+    "desenhoTests": [
+      {
+        "word": "2",
+        "status": "REJECTED",
+        "output": "",
+        "headNotRewound": false
+      },
+      {
+        "word": "",
+        "status": "REJECTED",
+        "output": "",
+        "headNotRewound": false
+      },
+      {
+        "word": "",
+        "status": "REJECTED",
+        "output": "",
+        "headNotRewound": false
+      },
+      {
+        "word": "2",
+        "status": "REJECTED",
+        "output": "",
+        "headNotRewound": false
+      }
+    ],
+    "activeTab": "desenho",
+    "victory": false,
+    "formal": {
+      "formalAnswers": {
+        "states": "{q1, q2, q3, q4, q5}",
+        "sigma": "{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}",
+        "gamma": "{□, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}",
+        "initial": "q1",
+        "blank": "□",
+        "final": "q4",
+        "deltaCells": {}
+      },
+      "formalElementsValid": true
+    }
+  },
+  "levelLabel": "L16",
+  "stars": 2
+}

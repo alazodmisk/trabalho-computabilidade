@@ -1,0 +1,493 @@
+{
+  "schemaVersion": 1,
+  "app": "turinglab",
+  "moduleKey": "mt-trans",
+  "levelId": "MT_L14",
+  "savedAt": "2026-11-10T14:24:27.790Z",
+  "payload": {
+    "nodes": [
+      {
+        "uid": "_mt1_tddf",
+        "id": "q0",
+        "label": "q0",
+        "x": 123.99998672485447,
+        "y": 505.041770550402,
+        "isInitial": true,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt2_dl7e",
+        "id": "q1",
+        "label": "q1",
+        "x": 298.66664515177564,
+        "y": 505.0418086973717,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt3_i8j8",
+        "id": "q2",
+        "label": "q2",
+        "x": 594.6667026774061,
+        "y": 505.0416942564625,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt1_kgxv",
+        "id": "q3",
+        "label": "q3",
+        "x": 950.6666602579758,
+        "y": 223.70832643826856,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt3_8oni",
+        "id": "q5",
+        "label": "q5",
+        "x": 1219.9999832153333,
+        "y": 143.70833254178373,
+        "isInitial": false,
+        "isFinal": true
+      },
+      {
+        "uid": "_mt4_6snv",
+        "id": "q6",
+        "label": "q6",
+        "x": 1257.333278096521,
+        "y": 787.7083368142444,
+        "isInitial": false,
+        "isFinal": false
+      }
+    ],
+    "transitions": [
+      {
+        "from": "q0",
+        "to": "q1",
+        "read": "<",
+        "write": "",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "0",
+        "write": "0",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "1",
+        "write": "1",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "2",
+        "write": "2",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "3",
+        "write": "3",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q2",
+        "read": "",
+        "write": "",
+        "move": "L"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "4",
+        "write": "4",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "5",
+        "write": "5",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "6",
+        "write": "6",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "7",
+        "write": "7",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "8",
+        "write": "8",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "9",
+        "write": "9",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "A",
+        "write": "A",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "B",
+        "write": "B",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "C",
+        "write": "C",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "D",
+        "write": "D",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "E",
+        "write": "E",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "F",
+        "write": "F",
+        "move": "R"
+      },
+      {
+        "from": "q2",
+        "to": "q3",
+        "read": "0",
+        "write": "1",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q3",
+        "read": "1",
+        "write": "2",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q3",
+        "read": "2",
+        "write": "3",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q3",
+        "read": "3",
+        "write": "4",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q3",
+        "read": "4",
+        "write": "5",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q3",
+        "read": "5",
+        "write": "6",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q3",
+        "read": "6",
+        "write": "7",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q3",
+        "read": "7",
+        "write": "8",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q3",
+        "read": "8",
+        "write": "9",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q3",
+        "read": "9",
+        "write": "A",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q3",
+        "read": "A",
+        "write": "B",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q3",
+        "read": "B",
+        "write": "C",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q3",
+        "read": "C",
+        "write": "D",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q3",
+        "read": "D",
+        "write": "E",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q3",
+        "read": "E",
+        "write": "F",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q3",
+        "read": "0",
+        "write": "0",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q3",
+        "read": "1",
+        "write": "1",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q3",
+        "read": "2",
+        "write": "2",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q3",
+        "read": "3",
+        "write": "3",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q3",
+        "read": "4",
+        "write": "4",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q3",
+        "read": "5",
+        "write": "5",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q3",
+        "read": "6",
+        "write": "6",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q3",
+        "read": "7",
+        "write": "7",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q3",
+        "read": "8",
+        "write": "8",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q3",
+        "read": "9",
+        "write": "9",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q3",
+        "read": "A",
+        "write": "A",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q3",
+        "read": "B",
+        "write": "B",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q3",
+        "read": "C",
+        "write": "C",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q3",
+        "read": "D",
+        "write": "D",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q3",
+        "read": "E",
+        "write": "E",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q3",
+        "read": "F",
+        "write": "F",
+        "move": "L"
+      },
+      {
+        "from": "q3",
+        "to": "q5",
+        "read": "",
+        "write": "",
+        "move": "R"
+      },
+      {
+        "from": "q6",
+        "to": "q5",
+        "read": "",
+        "write": "",
+        "move": "R"
+      },
+      {
+        "from": "q2",
+        "to": "q2",
+        "read": "F",
+        "write": "0",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q6",
+        "read": "",
+        "write": "1",
+        "move": "L"
+      }
+    ],
+    "linguagemTests": [
+      {
+        "word": "2A",
+        "status": "ACCEPTED",
+        "output": "2B"
+      }
+    ],
+    "desenhoTests": [
+      {
+        "word": "1F",
+        "status": "REJECTED",
+        "output": "",
+        "headNotRewound": false
+      },
+      {
+        "word": "1FF",
+        "status": "ACCEPTED",
+        "output": "200",
+        "headNotRewound": false
+      },
+      {
+        "word": "F",
+        "status": "ACCEPTED",
+        "output": "10",
+        "headNotRewound": false
+      },
+      {
+        "word": "1E",
+        "status": "ACCEPTED",
+        "output": "1F",
+        "headNotRewound": false
+      },
+      {
+        "word": "E",
+        "status": "ACCEPTED",
+        "output": "F",
+        "headNotRewound": false
+      }
+    ],
+    "activeTab": "desenho",
+    "victory": false,
+    "formal": {
+      "formalAnswers": {
+        "states": "{q0, q1, q2, q3, q5, q6}",
+        "sigma": "{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F}",
+        "gamma": "{<, □, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F}",
+        "initial": "q0",
+        "blank": "□",
+        "final": "q5",
+        "deltaCells": {}
+      },
+      "formalElementsValid": true
+    }
+  },
+  "levelLabel": "L14",
+  "stars": 2
+}

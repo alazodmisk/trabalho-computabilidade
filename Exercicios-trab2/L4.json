@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "app": "turinglab",
+  "moduleKey": "mt-trans",
+  "levelId": "MT_L4",
+  "savedAt": "2026-11-10T13:56:28.326Z",
+  "payload": {
+    "nodes": [
+      {
+        "uid": "_mt1_bqbo",
+        "id": "q0",
+        "label": "q0",
+        "x": 298.66666422526055,
+        "y": 581.0416350523656,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt2_hn16",
+        "id": "q1",
+        "label": "q1",
+        "x": 597.3332903035513,
+        "y": 581.0416350523653,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt3_3id3",
+        "id": "q2",
+        "label": "q2",
+        "x": 889.3334282429942,
+        "y": 386.3749781513231,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt4_ysyr",
+        "id": "q3",
+        "label": "q3",
+        "x": 1181.3332991536486,
+        "y": 195.7083362038928,
+        "isInitial": false,
+        "isFinal": true
+      },
+      {
+        "uid": "_mt5_tzl4",
+        "id": "q4",
+        "label": "q4",
+        "x": 78.66666670481364,
+        "y": 582.3750242328625,
+        "isInitial": true,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt6_9zba",
+        "id": "q5",
+        "label": "q5",
+        "x": 927.9999597167999,
+        "y": 822.3750059223172,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt7_mnbh",
+        "id": "q6",
+        "label": "q6",
+        "x": 1237.3332796224,
+        "y": 589.0416649595898,
+        "isInitial": false,
+        "isFinal": false
+      }
+    ],
+    "transitions": [
+      {
+        "from": "q0",
+        "to": "q0",
+        "read": "0",
+        "write": "0",
+        "move": "R"
+      },
+      {
+        "from": "q0",
+        "to": "q0",
+        "read": "1",
+        "write": "1",
+        "move": "R"
+      },
+      {
+        "from": "q0",
+        "to": "q1",
+        "read": "",
+        "write": "",
+        "move": "L"
+      },
+      {
+        "from": "q1",
+        "to": "q2",
+        "read": "0",
+        "write": "1",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q2",
+        "read": "1",
+        "write": "1",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q2",
+        "read": "0",
+        "write": "0",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q3",
+        "read": "",
+        "write": "",
+        "move": "R"
+      },
+      {
+        "from": "q4",
+        "to": "q0",
+        "read": "<",
+        "write": "",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q5",
+        "read": "1",
+        "write": "0",
+        "move": "L"
+      },
+      {
+        "from": "q5",
+        "to": "q5",
+        "read": "1",
+        "write": "0",
+        "move": "L"
+      },
+      {
+        "from": "q5",
+        "to": "q2",
+        "read": "0",
+        "write": "1",
+        "move": "L"
+      },
+      {
+        "from": "q5",
+        "to": "q6",
+        "read": "",
+        "write": "1",
+        "move": "L"
+      },
+      {
+        "from": "q6",
+        "to": "q3",
+        "read": "",
+        "write": "",
+        "move": "R"
+      }
+    ],
+    "linguagemTests": [],
+    "desenhoTests": [
+      {
+        "word": "1",
+        "status": "ACCEPTED",
+        "output": "10",
+        "headNotRewound": false
+      },
+      {
+        "word": "",
+        "status": "REJECTED",
+        "output": "",
+        "headNotRewound": false
+      },
+      {
+        "word": "1",
+        "status": "REJECTED",
+        "output": "",
+        "headNotRewound": false
+      },
+      {
+        "word": "101",
+        "status": "ACCEPTED",
+        "output": "110",
+        "headNotRewound": false
+      },
+      {
+        "word": "100",
+        "status": "ACCEPTED",
+        "output": "101",
+        "headNotRewound": false
+      },
+      {
+        "word": "",
+        "status": "REJECTED",
+        "output": "",
+        "headNotRewound": false
+      },
+      {
+        "word": "100",
+        "status": "REJECTED",
+        "output": "",
+        "headNotRewound": false
+      }
+    ],
+    "activeTab": "desenho",
+    "victory": true,
+    "formal": {
+      "formalAnswers": {
+        "states": "{q0, q1, q2, q3, q4, q5, q6}",
+        "sigma": "{0, 1}",
+        "gamma": "{0, 1, <, □}",
+        "initial": "q4",
+        "blank": "□",
+        "final": "q3",
+        "deltaCells": {
+          "q0|0": "q0, 0, R",
+          "q0|1": "q0, 1, R",
+          "q0|□": "q1, □, L",
+          "q1|0": "q2, 1, L",
+          "q1|1": "q5, 0, L",
+          "q2|0": "q2, 0, L",
+          "q2|1": "q2, 1, L",
+          "q2|□": "q3, □, R",
+          "q4|<": "q0, □, R",
+          "q5|0": "q2, 1, L",
+          "q5|1": "q5, 0, L",
+          "q5|□": "q6, 1, L",
+          "q6|□": "q3, □, R"
+        }
+      },
+      "formalElementsValid": true
+    }
+  },
+  "levelLabel": "L04",
+  "stars": 3
+}

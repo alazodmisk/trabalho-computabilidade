@@ -1,0 +1,420 @@
+{
+  "schemaVersion": 1,
+  "app": "turinglab",
+  "moduleKey": "mt-trans",
+  "levelId": "MT_L19",
+  "savedAt": "2026-11-20T17:46:40.050Z",
+  "payload": {
+    "nodes": [
+      {
+        "uid": "_mt1_i3f4",
+        "id": "q0",
+        "label": "q0",
+        "x": 322.66663950602424,
+        "y": 879.7083755715654,
+        "isInitial": true,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt4_e8ny",
+        "id": "q1",
+        "label": "q1",
+        "x": 1217.3335100300976,
+        "y": 879.7084137185352,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt5_2yrg",
+        "id": "q2",
+        "label": "q2",
+        "x": 1213.333342488606,
+        "y": 234.3751347064869,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt6_t3ih",
+        "id": "q3",
+        "label": "q3",
+        "x": 293.3334126790304,
+        "y": 238.37501614570488,
+        "isInitial": false,
+        "isFinal": true
+      },
+      {
+        "uid": "_mt7_98z0",
+        "id": "q4",
+        "label": "q4",
+        "x": 640.0000274658182,
+        "y": 233.04170737902007,
+        "isInitial": false,
+        "isFinal": false
+      }
+    ],
+    "transitions": [
+      {
+        "from": "q4",
+        "to": "q3",
+        "read": "",
+        "write": "",
+        "move": "R"
+      },
+      {
+        "from": "q0",
+        "to": "q1",
+        "read": "1",
+        "write": "",
+        "move": "R"
+      },
+      {
+        "from": "q0",
+        "to": "q2",
+        "read": "2",
+        "write": "1",
+        "move": "R"
+      },
+      {
+        "from": "q0",
+        "to": "q1",
+        "read": "3",
+        "write": "1",
+        "move": "R"
+      },
+      {
+        "from": "q0",
+        "to": "q2",
+        "read": "4",
+        "write": "2",
+        "move": "R"
+      },
+      {
+        "from": "q0",
+        "to": "q1",
+        "read": "5",
+        "write": "2",
+        "move": "R"
+      },
+      {
+        "from": "q0",
+        "to": "q2",
+        "read": "6",
+        "write": "3",
+        "move": "R"
+      },
+      {
+        "from": "q0",
+        "to": "q1",
+        "read": "7",
+        "write": "3",
+        "move": "R"
+      },
+      {
+        "from": "q0",
+        "to": "q2",
+        "read": "8",
+        "write": "4",
+        "move": "R"
+      },
+      {
+        "from": "q0",
+        "to": "q1",
+        "read": "9",
+        "write": "4",
+        "move": "R"
+      },
+      {
+        "from": "q2",
+        "to": "q2",
+        "read": "0",
+        "write": "0",
+        "move": "R"
+      },
+      {
+        "from": "q2",
+        "to": "q1",
+        "read": "1",
+        "write": "0",
+        "move": "R"
+      },
+      {
+        "from": "q2",
+        "to": "q2",
+        "read": "2",
+        "write": "1",
+        "move": "R"
+      },
+      {
+        "from": "q2",
+        "to": "q1",
+        "read": "3",
+        "write": "1",
+        "move": "R"
+      },
+      {
+        "from": "q2",
+        "to": "q2",
+        "read": "4",
+        "write": "2",
+        "move": "R"
+      },
+      {
+        "from": "q2",
+        "to": "q1",
+        "read": "5",
+        "write": "2",
+        "move": "R"
+      },
+      {
+        "from": "q2",
+        "to": "q2",
+        "read": "6",
+        "write": "3",
+        "move": "R"
+      },
+      {
+        "from": "q2",
+        "to": "q1",
+        "read": "7",
+        "write": "3",
+        "move": "R"
+      },
+      {
+        "from": "q2",
+        "to": "q2",
+        "read": "8",
+        "write": "4",
+        "move": "R"
+      },
+      {
+        "from": "q2",
+        "to": "q1",
+        "read": "9",
+        "write": "4",
+        "move": "R"
+      },
+      {
+        "from": "q4",
+        "to": "q4",
+        "read": "0",
+        "write": "0",
+        "move": "L"
+      },
+      {
+        "from": "q4",
+        "to": "q4",
+        "read": "1",
+        "write": "1",
+        "move": "L"
+      },
+      {
+        "from": "q4",
+        "to": "q4",
+        "read": "2",
+        "write": "2",
+        "move": "L"
+      },
+      {
+        "from": "q4",
+        "to": "q4",
+        "read": "3",
+        "write": "3",
+        "move": "L"
+      },
+      {
+        "from": "q4",
+        "to": "q4",
+        "read": "4",
+        "write": "4",
+        "move": "L"
+      },
+      {
+        "from": "q4",
+        "to": "q4",
+        "read": "5",
+        "write": "5",
+        "move": "L"
+      },
+      {
+        "from": "q4",
+        "to": "q4",
+        "read": "6",
+        "write": "6",
+        "move": "L"
+      },
+      {
+        "from": "q4",
+        "to": "q4",
+        "read": "7",
+        "write": "7",
+        "move": "L"
+      },
+      {
+        "from": "q4",
+        "to": "q4",
+        "read": "8",
+        "write": "8",
+        "move": "L"
+      },
+      {
+        "from": "q4",
+        "to": "q4",
+        "read": "9",
+        "write": "9",
+        "move": "L"
+      },
+      {
+        "from": "q1",
+        "to": "q2",
+        "read": "0",
+        "write": "5",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "1",
+        "write": "5",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q2",
+        "read": "2",
+        "write": "6",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "3",
+        "write": "6",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q2",
+        "read": "4",
+        "write": "7",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "5",
+        "write": "7",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q2",
+        "read": "6",
+        "write": "8",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "7",
+        "write": "8",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q2",
+        "read": "8",
+        "write": "9",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q1",
+        "read": "9",
+        "write": "9",
+        "move": "R"
+      },
+      {
+        "from": "q1",
+        "to": "q4",
+        "read": "",
+        "write": "5",
+        "move": "L"
+      },
+      {
+        "from": "q2",
+        "to": "q4",
+        "read": "",
+        "write": "0",
+        "move": "L"
+      },
+      {
+        "from": "q0",
+        "to": "q2",
+        "read": "0",
+        "write": "",
+        "move": "R"
+      }
+    ],
+    "linguagemTests": [
+      {
+        "word": "5",
+        "status": "ACCEPTED",
+        "output": "25"
+      }
+    ],
+    "desenhoTests": [
+      {
+        "word": "25",
+        "status": "ACCEPTED",
+        "output": "125",
+        "headNotRewound": false
+      },
+      {
+        "word": "2",
+        "status": "ACCEPTED",
+        "output": "10",
+        "headNotRewound": false
+      },
+      {
+        "word": "0",
+        "status": "ACCEPTED",
+        "output": "0",
+        "headNotRewound": false
+      },
+      {
+        "word": "0",
+        "status": "REJECTED",
+        "output": "",
+        "headNotRewound": false
+      },
+      {
+        "word": "0",
+        "status": "ACCEPTED",
+        "output": "0",
+        "headNotRewound": false
+      },
+      {
+        "word": "0",
+        "status": "ACCEPTED",
+        "output": "0",
+        "headNotRewound": true
+      }
+    ],
+    "activeTab": "desenho",
+    "victory": false,
+    "formal": {
+      "formalAnswers": {
+        "states": "{q0, q1, q2, q3, q4}",
+        "sigma": "{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}",
+        "gamma": "{□, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}",
+        "initial": "q0",
+        "blank": "□",
+        "final": "q3",
+        "deltaCells": {}
+      },
+      "formalElementsValid": true
+    }
+  },
+  "levelLabel": "L19",
+  "stars": 2
+}

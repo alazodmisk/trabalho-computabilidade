@@ -1,0 +1,851 @@
+{
+  "schemaVersion": 1,
+  "app": "turinglab",
+  "moduleKey": "mt-trans",
+  "levelId": "MT_L22",
+  "savedAt": "2026-11-23T20:59:20.738Z",
+  "payload": {
+    "nodes": [
+      {
+        "uid": "_mt_q0",
+        "id": "q0",
+        "label": "q0",
+        "x": 150,
+        "y": 400,
+        "isInitial": true,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt_qc0",
+        "id": "q_c0",
+        "label": "q_c0",
+        "x": 420,
+        "y": 50,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt_qc1",
+        "id": "q_c1",
+        "label": "q_c1",
+        "x": 420,
+        "y": 140,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt_qc2",
+        "id": "q_c2",
+        "label": "q_c2",
+        "x": 420,
+        "y": 230,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt_qc3",
+        "id": "q_c3",
+        "label": "q_c3",
+        "x": 420,
+        "y": 320,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt_qc4",
+        "id": "q_c4",
+        "label": "q_c4",
+        "x": 420,
+        "y": 410,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt_qc5",
+        "id": "q_c5",
+        "label": "q_c5",
+        "x": 420,
+        "y": 500,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt_qc6",
+        "id": "q_c6",
+        "label": "q_c6",
+        "x": 420,
+        "y": 590,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt_qc7",
+        "id": "q_c7",
+        "label": "q_c7",
+        "x": 420,
+        "y": 680,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt_qfix",
+        "id": "q_fix",
+        "label": "q_fix",
+        "x": 680,
+        "y": 440,
+        "isInitial": false,
+        "isFinal": false
+      },
+      {
+        "uid": "_mt_qf",
+        "id": "qf",
+        "label": "qf",
+        "x": 880,
+        "y": 260,
+        "isInitial": false,
+        "isFinal": true
+      }
+    ],
+    "transitions": [
+      {
+        "from": "q0",
+        "to": "q0",
+        "read": "0",
+        "write": "0",
+        "move": "R"
+      },
+      {
+        "from": "q0",
+        "to": "q0",
+        "read": "1",
+        "write": "1",
+        "move": "R"
+      },
+      {
+        "from": "q0",
+        "to": "q0",
+        "read": "2",
+        "write": "2",
+        "move": "R"
+      },
+      {
+        "from": "q0",
+        "to": "q0",
+        "read": "3",
+        "write": "3",
+        "move": "R"
+      },
+      {
+        "from": "q0",
+        "to": "q0",
+        "read": "4",
+        "write": "4",
+        "move": "R"
+      },
+      {
+        "from": "q0",
+        "to": "q0",
+        "read": "5",
+        "write": "5",
+        "move": "R"
+      },
+      {
+        "from": "q0",
+        "to": "q0",
+        "read": "6",
+        "write": "6",
+        "move": "R"
+      },
+      {
+        "from": "q0",
+        "to": "q0",
+        "read": "7",
+        "write": "7",
+        "move": "R"
+      },
+      {
+        "from": "q0",
+        "to": "q0",
+        "read": "8",
+        "write": "8",
+        "move": "R"
+      },
+      {
+        "from": "q0",
+        "to": "q0",
+        "read": "9",
+        "write": "9",
+        "move": "R"
+      },
+      {
+        "from": "q0",
+        "to": "q_c0",
+        "read": "",
+        "write": "",
+        "move": "L"
+      },
+      {
+        "from": "q_c0",
+        "to": "q_c0",
+        "read": "0",
+        "write": "0",
+        "move": "L"
+      },
+      {
+        "from": "q_c0",
+        "to": "q_c0",
+        "read": "1",
+        "write": "8",
+        "move": "L"
+      },
+      {
+        "from": "q_c0",
+        "to": "q_c1",
+        "read": "2",
+        "write": "6",
+        "move": "L"
+      },
+      {
+        "from": "q_c0",
+        "to": "q_c2",
+        "read": "3",
+        "write": "4",
+        "move": "L"
+      },
+      {
+        "from": "q_c0",
+        "to": "q_c3",
+        "read": "4",
+        "write": "2",
+        "move": "L"
+      },
+      {
+        "from": "q_c0",
+        "to": "q_c4",
+        "read": "5",
+        "write": "0",
+        "move": "L"
+      },
+      {
+        "from": "q_c0",
+        "to": "q_c4",
+        "read": "6",
+        "write": "8",
+        "move": "L"
+      },
+      {
+        "from": "q_c0",
+        "to": "q_c5",
+        "read": "7",
+        "write": "6",
+        "move": "L"
+      },
+      {
+        "from": "q_c0",
+        "to": "q_c6",
+        "read": "8",
+        "write": "4",
+        "move": "L"
+      },
+      {
+        "from": "q_c0",
+        "to": "q_c7",
+        "read": "9",
+        "write": "2",
+        "move": "L"
+      },
+      {
+        "from": "q_c0",
+        "to": "qf",
+        "read": "",
+        "write": "",
+        "move": "R"
+      },
+      {
+        "from": "q_c1",
+        "to": "q_c0",
+        "read": "0",
+        "write": "1",
+        "move": "L"
+      },
+      {
+        "from": "q_c1",
+        "to": "q_c0",
+        "read": "1",
+        "write": "9",
+        "move": "L"
+      },
+      {
+        "from": "q_c1",
+        "to": "q_c1",
+        "read": "2",
+        "write": "7",
+        "move": "L"
+      },
+      {
+        "from": "q_c1",
+        "to": "q_c2",
+        "read": "3",
+        "write": "5",
+        "move": "L"
+      },
+      {
+        "from": "q_c1",
+        "to": "q_c3",
+        "read": "4",
+        "write": "3",
+        "move": "L"
+      },
+      {
+        "from": "q_c1",
+        "to": "q_c4",
+        "read": "5",
+        "write": "1",
+        "move": "L"
+      },
+      {
+        "from": "q_c1",
+        "to": "q_c4",
+        "read": "6",
+        "write": "9",
+        "move": "L"
+      },
+      {
+        "from": "q_c1",
+        "to": "q_c5",
+        "read": "7",
+        "write": "7",
+        "move": "L"
+      },
+      {
+        "from": "q_c1",
+        "to": "q_c6",
+        "read": "8",
+        "write": "5",
+        "move": "L"
+      },
+      {
+        "from": "q_c1",
+        "to": "q_c7",
+        "read": "9",
+        "write": "3",
+        "move": "L"
+      },
+      {
+        "from": "q_c1",
+        "to": "q_fix",
+        "read": "",
+        "write": "1",
+        "move": "L"
+      },
+      {
+        "from": "q_c2",
+        "to": "q_c0",
+        "read": "0",
+        "write": "2",
+        "move": "L"
+      },
+      {
+        "from": "q_c2",
+        "to": "q_c1",
+        "read": "1",
+        "write": "0",
+        "move": "L"
+      },
+      {
+        "from": "q_c2",
+        "to": "q_c1",
+        "read": "2",
+        "write": "8",
+        "move": "L"
+      },
+      {
+        "from": "q_c2",
+        "to": "q_c2",
+        "read": "3",
+        "write": "6",
+        "move": "L"
+      },
+      {
+        "from": "q_c2",
+        "to": "q_c3",
+        "read": "4",
+        "write": "4",
+        "move": "L"
+      },
+      {
+        "from": "q_c2",
+        "to": "q_c4",
+        "read": "5",
+        "write": "2",
+        "move": "L"
+      },
+      {
+        "from": "q_c2",
+        "to": "q_c5",
+        "read": "6",
+        "write": "0",
+        "move": "L"
+      },
+      {
+        "from": "q_c2",
+        "to": "q_c5",
+        "read": "7",
+        "write": "8",
+        "move": "L"
+      },
+      {
+        "from": "q_c2",
+        "to": "q_c6",
+        "read": "8",
+        "write": "6",
+        "move": "L"
+      },
+      {
+        "from": "q_c2",
+        "to": "q_c7",
+        "read": "9",
+        "write": "4",
+        "move": "L"
+      },
+      {
+        "from": "q_c2",
+        "to": "q_fix",
+        "read": "",
+        "write": "2",
+        "move": "L"
+      },
+      {
+        "from": "q_c3",
+        "to": "q_c0",
+        "read": "0",
+        "write": "3",
+        "move": "L"
+      },
+      {
+        "from": "q_c3",
+        "to": "q_c1",
+        "read": "1",
+        "write": "1",
+        "move": "L"
+      },
+      {
+        "from": "q_c3",
+        "to": "q_c1",
+        "read": "2",
+        "write": "9",
+        "move": "L"
+      },
+      {
+        "from": "q_c3",
+        "to": "q_c2",
+        "read": "3",
+        "write": "7",
+        "move": "L"
+      },
+      {
+        "from": "q_c3",
+        "to": "q_c3",
+        "read": "4",
+        "write": "5",
+        "move": "L"
+      },
+      {
+        "from": "q_c3",
+        "to": "q_c4",
+        "read": "5",
+        "write": "3",
+        "move": "L"
+      },
+      {
+        "from": "q_c3",
+        "to": "q_c5",
+        "read": "6",
+        "write": "1",
+        "move": "L"
+      },
+      {
+        "from": "q_c3",
+        "to": "q_c5",
+        "read": "7",
+        "write": "9",
+        "move": "L"
+      },
+      {
+        "from": "q_c3",
+        "to": "q_c6",
+        "read": "8",
+        "write": "7",
+        "move": "L"
+      },
+      {
+        "from": "q_c3",
+        "to": "q_c7",
+        "read": "9",
+        "write": "5",
+        "move": "L"
+      },
+      {
+        "from": "q_c3",
+        "to": "q_fix",
+        "read": "",
+        "write": "3",
+        "move": "L"
+      },
+      {
+        "from": "q_c4",
+        "to": "q_c0",
+        "read": "0",
+        "write": "4",
+        "move": "L"
+      },
+      {
+        "from": "q_c4",
+        "to": "q_c1",
+        "read": "1",
+        "write": "2",
+        "move": "L"
+      },
+      {
+        "from": "q_c4",
+        "to": "q_c2",
+        "read": "2",
+        "write": "0",
+        "move": "L"
+      },
+      {
+        "from": "q_c4",
+        "to": "q_c2",
+        "read": "3",
+        "write": "8",
+        "move": "L"
+      },
+      {
+        "from": "q_c4",
+        "to": "q_c3",
+        "read": "4",
+        "write": "6",
+        "move": "L"
+      },
+      {
+        "from": "q_c4",
+        "to": "q_c4",
+        "read": "5",
+        "write": "4",
+        "move": "L"
+      },
+      {
+        "from": "q_c4",
+        "to": "q_c5",
+        "read": "6",
+        "write": "2",
+        "move": "L"
+      },
+      {
+        "from": "q_c4",
+        "to": "q_c6",
+        "read": "7",
+        "write": "0",
+        "move": "L"
+      },
+      {
+        "from": "q_c4",
+        "to": "q_c6",
+        "read": "8",
+        "write": "8",
+        "move": "L"
+      },
+      {
+        "from": "q_c4",
+        "to": "q_c7",
+        "read": "9",
+        "write": "6",
+        "move": "L"
+      },
+      {
+        "from": "q_c4",
+        "to": "q_fix",
+        "read": "",
+        "write": "4",
+        "move": "L"
+      },
+      {
+        "from": "q_c5",
+        "to": "q_c0",
+        "read": "0",
+        "write": "5",
+        "move": "L"
+      },
+      {
+        "from": "q_c5",
+        "to": "q_c1",
+        "read": "1",
+        "write": "3",
+        "move": "L"
+      },
+      {
+        "from": "q_c5",
+        "to": "q_c2",
+        "read": "2",
+        "write": "1",
+        "move": "L"
+      },
+      {
+        "from": "q_c5",
+        "to": "q_c2",
+        "read": "3",
+        "write": "9",
+        "move": "L"
+      },
+      {
+        "from": "q_c5",
+        "to": "q_c3",
+        "read": "4",
+        "write": "7",
+        "move": "L"
+      },
+      {
+        "from": "q_c5",
+        "to": "q_c4",
+        "read": "5",
+        "write": "5",
+        "move": "L"
+      },
+      {
+        "from": "q_c5",
+        "to": "q_c5",
+        "read": "6",
+        "write": "3",
+        "move": "L"
+      },
+      {
+        "from": "q_c5",
+        "to": "q_c6",
+        "read": "7",
+        "write": "1",
+        "move": "L"
+      },
+      {
+        "from": "q_c5",
+        "to": "q_c6",
+        "read": "8",
+        "write": "9",
+        "move": "L"
+      },
+      {
+        "from": "q_c5",
+        "to": "q_c7",
+        "read": "9",
+        "write": "7",
+        "move": "L"
+      },
+      {
+        "from": "q_c5",
+        "to": "q_fix",
+        "read": "",
+        "write": "5",
+        "move": "L"
+      },
+      {
+        "from": "q_c6",
+        "to": "q_c0",
+        "read": "0",
+        "write": "6",
+        "move": "L"
+      },
+      {
+        "from": "q_c6",
+        "to": "q_c1",
+        "read": "1",
+        "write": "4",
+        "move": "L"
+      },
+      {
+        "from": "q_c6",
+        "to": "q_c2",
+        "read": "2",
+        "write": "2",
+        "move": "L"
+      },
+      {
+        "from": "q_c6",
+        "to": "q_c3",
+        "read": "3",
+        "write": "0",
+        "move": "L"
+      },
+      {
+        "from": "q_c6",
+        "to": "q_c3",
+        "read": "4",
+        "write": "8",
+        "move": "L"
+      },
+      {
+        "from": "q_c6",
+        "to": "q_c4",
+        "read": "5",
+        "write": "6",
+        "move": "L"
+      },
+      {
+        "from": "q_c6",
+        "to": "q_c5",
+        "read": "6",
+        "write": "4",
+        "move": "L"
+      },
+      {
+        "from": "q_c6",
+        "to": "q_c6",
+        "read": "7",
+        "write": "2",
+        "move": "L"
+      },
+      {
+        "from": "q_c6",
+        "to": "q_c7",
+        "read": "8",
+        "write": "0",
+        "move": "L"
+      },
+      {
+        "from": "q_c6",
+        "to": "q_c7",
+        "read": "9",
+        "write": "8",
+        "move": "L"
+      },
+      {
+        "from": "q_c6",
+        "to": "q_fix",
+        "read": "",
+        "write": "6",
+        "move": "L"
+      },
+      {
+        "from": "q_c7",
+        "to": "q_c0",
+        "read": "0",
+        "write": "7",
+        "move": "L"
+      },
+      {
+        "from": "q_c7",
+        "to": "q_c1",
+        "read": "1",
+        "write": "5",
+        "move": "L"
+      },
+      {
+        "from": "q_c7",
+        "to": "q_c2",
+        "read": "2",
+        "write": "3",
+        "move": "L"
+      },
+      {
+        "from": "q_c7",
+        "to": "q_c3",
+        "read": "3",
+        "write": "1",
+        "move": "L"
+      },
+      {
+        "from": "q_c7",
+        "to": "q_c3",
+        "read": "4",
+        "write": "9",
+        "move": "L"
+      },
+      {
+        "from": "q_c7",
+        "to": "q_c4",
+        "read": "5",
+        "write": "7",
+        "move": "L"
+      },
+      {
+        "from": "q_c7",
+        "to": "q_c5",
+        "read": "6",
+        "write": "5",
+        "move": "L"
+      },
+      {
+        "from": "q_c7",
+        "to": "q_c6",
+        "read": "7",
+        "write": "3",
+        "move": "L"
+      },
+      {
+        "from": "q_c7",
+        "to": "q_c7",
+        "read": "8",
+        "write": "1",
+        "move": "L"
+      },
+      {
+        "from": "q_c7",
+        "to": "q_c7",
+        "read": "9",
+        "write": "9",
+        "move": "L"
+      },
+      {
+        "from": "q_c7",
+        "to": "q_fix",
+        "read": "",
+        "write": "7",
+        "move": "L"
+      },
+      {
+        "from": "q_fix",
+        "to": "qf",
+        "read": "",
+        "write": "",
+        "move": "R"
+      }
+    ],
+    "linguagemTests": [
+      {
+        "word": "0",
+        "status": "ACCEPTED",
+        "output": "0"
+      },
+      {
+        "word": "3",
+        "status": "ACCEPTED",
+        "output": "24"
+      },
+      {
+        "word": "25",
+        "status": "ACCEPTED",
+        "output": "200"
+      },
+      {
+        "word": "999",
+        "status": "ACCEPTED",
+        "output": "7992"
+      }
+    ],
+    "desenhoTests": [],
+    "activeTab": "linguagem",
+    "victory": false,
+    "formal": {
+      "formalAnswers": {
+        "states": "{q0, q_c0, q_c1, q_c2, q_c3, q_c4, q_c5, q_c6, q_c7, q_fix, qf}",
+        "sigma": "{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}",
+        "gamma": "{□, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}",
+        "initial": "q0",
+        "blank": "□",
+        "final": "qf",
+        "deltaCells": {}
+      },
+      "formalElementsValid": true
+    }
+  },
+  "levelLabel": "L22",
+  "stars": 2
+}
